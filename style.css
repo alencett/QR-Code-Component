@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&family=Overpass:wght@400;700&display=swap');
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.component {
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 480px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+img {
+    position:relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+h3 {
+ color: hsl(218, 44%, 22%);
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
+}
+
+p {
+ color: hsl(220, 15%, 55%);
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 600;
+}
+
+@media (max-width: 375px) {
+    .component {
+        width: 80%;
+    }
+    .image {
+        width: 95%;
+
+    }
+}
+
+.attribution { 
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px; 
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(231, 45%, 44%); 
+}
+
